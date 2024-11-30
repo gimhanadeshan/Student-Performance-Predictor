@@ -1,10 +1,11 @@
-Here’s a simple **README.md** template for your project:
 
 ---
 
 # **Student Performance Predictor**
 
 This is a web application that predicts a student's performance (Pass/Fail) based on their attendance, study hours, and assignment scores. The application is built with a React frontend, Flask backend, and a machine learning model.
+
+![demo](https://github.com/user-attachments/assets/0dd5cd65-8db6-4923-8268-f26bb0e760a6)
 
 ---
 
