@@ -1,0 +1,31 @@
+/* Result.css */
+.result-container {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.result-container h2 {
+  color: #4caf50; /* Green for successful prediction */
+}
+
+.result-container p {
+  color: #555;
+  font-style: italic;
+}
+
+.error {
+  color: #e74c3c; /* Red for errors */
+  font-weight: bold;
+}
+
+.fail {
+  color: #e74c3c; /* Red color for fail predictions */
+}
+
+.pass {
+  color: #4caf50; /* Green color for pass predictions */
+}

@@ -1,0 +1,64 @@
+.history-container {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 90%;
+  background-color: #f9f9f9; /* Light gray background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  font-family: Arial, sans-serif; /* Consistent font */
+}
+
+.history-container h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333; /* Dark text color */
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd; /* Subtle border */
+}
+
+th {
+  background-color: #4caf50; /* Green header background */
+  color: white; /* White text for headers */
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light gray for alternating rows */
+}
+
+tr:hover {
+  background-color: #ddd; /* Highlight row on hover */
+}
+
+td {
+  text-align: center; /* Center-align data cells */
+}
+
+td.fail {
+  color: red; /* Red text for Fail */
+  font-weight: bold;
+}
+
+td.pass {
+  color: green; /* Green text for Pass */
+  font-weight: bold;
+}
+
+.no-history {
+  text-align: center;
+  margin-top: 20px;
+  color: #888; /* Light gray text */
+  font-size: 16px;
+}
