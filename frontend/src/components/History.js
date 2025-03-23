@@ -8,7 +8,7 @@ const History = () => {
   useEffect(() => {
     const fetchHistory = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/history");
+        const response = await axios.get(`${process.env.API_BASE_URL}/history`);
         setHistory(response.data.history);
       } catch (error) {
         console.error("Error fetching history:", error);
