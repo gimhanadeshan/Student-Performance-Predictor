@@ -17,9 +17,10 @@ const PredictorForm = ({ setResult }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true); // Show loading state
+
     try {
       const response = await axios.post(
-        `${process.env.API_BASE_URL}/predict`,
+        `${process.env.REACT_APP_API_BASE_URL}/predict`,
         formData
       );
       setResult(response.data.prediction);
