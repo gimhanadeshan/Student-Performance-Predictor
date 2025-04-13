@@ -18,7 +18,8 @@ const PredictorForm = ({ setResult }) => {
     setLoading(true);
 
     try {
-      await axios.post("/api/predict", formData);
+      const response = await axios.post("/api/predict", formData);
+      setResult(response.data.prediction);
     } catch (error) {
       console.error("Error making prediction:", error);
     } finally {
