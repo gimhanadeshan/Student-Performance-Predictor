@@ -7,14 +7,11 @@ const History = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    console.log("API Base URL:", process.env.REACT_APP_API_BASE_URL);
-
+   
     const fetchHistory = async () => {
       try {
         setLoading(true);
-        const response = await axios.get(
-          `${process.env.REACT_APP_API_BASE_URL}/history`
-        );
+        const response = await axios.get('/api/history');  
         setHistory(response.data.history);
         setLoading(false);
       } catch (error) {
@@ -23,6 +20,7 @@ const History = () => {
         setLoading(false);
       }
     };
+    
 
     fetchHistory();
   }, []);
