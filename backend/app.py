@@ -31,7 +31,7 @@ with app.app_context():
 model = joblib.load("student_model.pkl")
 
 # Predict endpoint
-@app.route("/predict", methods=["POST"])
+@app.route("/api/predict", methods=["POST"])
 def predict():
     try:
         data = request.json
@@ -58,7 +58,7 @@ def predict():
         return jsonify({"error": str(e)}), 400
 
 # History endpoint
-@app.route("/history", methods=["GET"])
+@app.route("/api/history", methods=["GET"])
 def history():
     try:
         predictions = Prediction.query.order_by(Prediction.created_at.desc()).all()
