@@ -13,7 +13,7 @@ const About = () => {
           <div className="about-content">
             <h2>About this Project</h2>
             <p>
-              The Academic Performance Predictor is an AI-powered tool designed
+              The Student Performance Predictor is an AI-powered tool designed
               to help educators identify students who may need additional
               support based on key performance indicators.
             </p>

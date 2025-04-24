@@ -32,9 +32,9 @@ const PredictorForm = ({ setResult }) => {
       <div className="card">
         <form onSubmit={handleSubmit}>
           <h2>Student Performance Predictor</h2>
-          <p className="form-subtitle">
+          {/* <p className="form-subtitle">
             Enter student metrics to generate a performance prediction
-          </p>
+          </p> */}
 
           <div className="form-group">
             <label htmlFor="attendance">
@@ -66,9 +66,9 @@ const PredictorForm = ({ setResult }) => {
               required
               placeholder="Enter class attendance percentage"
             />
-            <span className="input-hint">
+            {/* <span className="input-hint">
               Regular attendance is strongly correlated with academic success
-            </span>
+            </span> */}
           </div>
 
           <div className="form-group">
@@ -98,9 +98,9 @@ const PredictorForm = ({ setResult }) => {
               required
               placeholder="Enter average weekly study hours"
             />
-            <span className="input-hint">
+            {/* <span className="input-hint">
               Time spent in focused study outside class
-            </span>
+            </span> */}
           </div>
 
           <div className="form-group">
@@ -134,9 +134,9 @@ const PredictorForm = ({ setResult }) => {
               required
               placeholder="Enter average assignment score (0-100)"
             />
-            <span className="input-hint">
+            {/* <span className="input-hint">
               Assignment performance is a key predictor of exam success
-            </span>
+            </span> */}
           </div>
 
           <button type="submit" disabled={loading}>

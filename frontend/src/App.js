@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div className="app-container">
       <header className="app-header">
-        <h1>Academic Performance Predictor</h1>
+        <h1>Student Performance Predictor</h1>
         <p>Predict student success based on key performance indicators</p>
       </header>
 
