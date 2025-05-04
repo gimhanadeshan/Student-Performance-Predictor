@@ -5,6 +5,8 @@
 
 This is a web application that predicts a student's performance (Pass/Fail) based on their attendance, study hours, and assignment scores. The application is built with a React frontend, Flask backend, and a machine learning model.
 
+demo - http://www.spp.gimhana.live
+
 ![Image](https://github.com/user-attachments/assets/57681924-dd1a-48cf-88ac-b9bde4440466)
 
 ---
